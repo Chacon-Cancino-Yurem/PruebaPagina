@@ -1,0 +1,81 @@
+/* Establece estilo a la cabecera */
+header {
+    background-color: #447AB9; /* color de fondo de la cabecera */
+    padding: 1%; /* espacio interno */
+    text-align: center; /* alineación del texto */
+    border-top: 15px solid #82A7D6; /* color y ancho del borde */
+    border-bottom: 10px solid #325886; /* color y ancho del borde */
+    color: #FEF265;   
+}
+
+/* establece estilo a la imagen */
+.image-inline {
+    width: 220px; /* ancho de la imagen */
+    height: auto; /* alto de la imagen que se adapta a lo ancho */
+    float: right; /* ubicación de la imagen */
+    display: inline; /* se muestra en la misma línea que el texto */ 
+    margin-right: 5px; /* márgenes dentro de la cabecera */
+    margin-top: 5px; /* margen dentro de la cabecera */
+} 
+
+/* estilo para barra de navegación */
+.navbar ul {
+    background-color: #447AB9; /* color de fondo */
+    list-style: none; /* elimina los marcadores de la lista */
+    display: flex; /* coloca los botones en fila */
+    justify-content: flex-start; /* alinea los botones a la izquierda */
+    padding: 0; /* espaciado interno */
+    margin: 0; /* margen entre la barra nav y header */
+}
+
+/* establece estilo para los botones */
+.btn-nav {
+    background-color: #82A7D6; /* color de fondo del botón */
+    color: #FEF265; /* color del texto */
+    border: 1px solid #447AB9; /* borde */
+    padding: 10px 20px; /* espacio interno */
+    font-size: 16px; /* tamaño de fuente */
+    cursor: pointer; /* cursor tipo mano */
+}
+
+/* estilo para cuando se pasa el cursor sobre los botones */
+.btn-nav:hover {
+    background-color: #447AB9; /* cambia el color de fondo */
+}
+
+/* contenedor principal */
+.contenedor {
+    display: flex;
+    width: 93.5vw;
+}
+
+/* artículos */
+.articulo {
+    background-color: #ffffff;
+    flex: 3;
+    padding: 20px;
+}
+
+/* pie de página */
+.pie {
+    background-color: #ffffff;
+}
+
+/* propaganda */
+.Propaganda {
+    background-color: #b42020;
+    flex: 1.5;
+    padding: 20px;
+    color: white; /* para que el texto sea legible */
+}
+
+/* reset del body */
+body {
+    margin: 0;
+}
+
+/* enlaces */
+.a {
+    text-decoration: none;
+    color: #FEF265;
+}
