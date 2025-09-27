@@ -69,6 +69,22 @@ header {
     color: white; /* para que el texto sea legible */
 }
 
+/* propaganda */
+.Propaganda1 {
+    background-color: #e9dd5b;
+    flex: 1.5;
+    padding: 20px;
+    color: black; /* para que el texto sea legible */
+}
+
+/* propaganda */
+.Propaganda2 {
+    background-color: #e9dd5b;
+    flex: 1.5;
+    padding: 20px;
+    color: black; /* para que el texto sea legible */
+}
+
 /* reset del body */
 body {
     margin: 0;
